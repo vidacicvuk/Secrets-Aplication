@@ -23,6 +23,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
+
 app.use(session({
     secret: 'Nasa mala tajna',
     resave: false,
